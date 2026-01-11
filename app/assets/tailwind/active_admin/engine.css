@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@source "../../../../plugin.js";
+@source "../../../../vendor/javascript/flowbite.js";
+@source "../../../../app/views";
+
+@plugin "../../../../plugin.js";
+
+@custom-variant dark (&:where(.dark, .dark *));
